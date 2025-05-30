@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: 
+    local("Outfit-VariableFont_wght"),
+    url("./fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* Cho variable font */
+  font-display: swap; /* Tối ưu loading */
+}
+
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: 
+    local("YoungSerif-Regular"),
+    url("./fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
